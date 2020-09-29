@@ -156,9 +156,7 @@ public class IFAAManagerImpl extends IFAAManagerV4 {
     }
 
     public String getExtInfo(int authType, String keyExtInfo) {
-        Slog.i(TAG, "getExtInfo:" + authType + WifiEnterpriseConfig.CA_CERT_ALIAS_DELIMITER +
-                keyExtInfo);
-        return initExtString();
+       return initExtString();
     }
 
     public int[] getIDList(int bioType) {
